@@ -215,6 +215,7 @@ p+p{
 		}
 		&__subtitle{
 			@media(min-width: 0px){color: #89817F; font-size: 12px; margin-top: 7px;}
+			@media(max-width: 1126px){color: inherit;}
 		}
 		&__mart{
 			@media(min-width: 0px){margin-top: 20px; display: flex; justify-content: space-between; align-items: center;}
@@ -225,6 +226,7 @@ p+p{
 		}
 		&__count{
 			@media(min-width: 0px){color: #A69895; font-size: 12px; font-weight: 400;}
+			@media(max-width: 1126px){color: inherit;}
 		}
 		&__cart{
 			@media(min-width: 0px){width: 66px; height: 36px; background-color: #429F3A; background-image: url('../images/cart.svg'); background-position: center center; background-repeat: no-repeat; cursor: pointer; border-radius: 36px 0 0 36px;}

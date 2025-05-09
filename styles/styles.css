@@ -799,6 +799,11 @@ section {
     margin-top: 7px;
   }
 }
+@media (max-width: 1126px) {
+  .aaa-goodPreview__subtitle {
+    color: inherit;
+  }
+}
 @media (min-width: 0px) {
   .aaa-goodPreview__mart {
     margin-top: 20px;
@@ -825,6 +830,11 @@ section {
     color: #A69895;
     font-size: 12px;
     font-weight: 400;
+  }
+}
+@media (max-width: 1126px) {
+  .aaa-goodPreview__count {
+    color: inherit;
   }
 }
 @media (min-width: 0px) {
